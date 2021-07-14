@@ -28,19 +28,7 @@ Wire Wire Line
 	8720 4350 8750 4350
 Wire Wire Line
 	9020 4530 9050 4050
-Connection ~ 9020 4530
 Connection ~ 9050 4050
-$Comp
-L RRC2021_PCB1-rescue:Teensy3.6-teensy microcontroller1
-U 1 1 60257C60
-P 4900 3030
-F 0 "microcontroller1" H 4900 5467 60  0000 C CNN
-F 1 "Teensy3.6" H 4900 5361 60  0000 C CNN
-F 2 "Teensy Microcontrollers:Teensy35_36" H 4900 3080 60  0001 C CNN
-F 3 "" H 4900 3080 60  0000 C CNN
-	1    4900 3030
-	1    0    0    -1  
-$EndComp
 Connection ~ 9040 3620
 Wire Wire Line
 	9050 4050 9040 3620
@@ -62,7 +50,6 @@ Wire Wire Line
 	8740 3260 8740 3620
 Wire Wire Line
 	9040 3260 9040 3620
-Connection ~ 9040 3260
 $Comp
 L Device:Battery_Cell Battery1
 U 1 1 60317B3E
@@ -86,216 +73,247 @@ F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 8750 4000 50 
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7230 5270 7230 5360
-Wire Wire Line
 	6430 4880 6430 4380
-Wire Wire Line
-	6430 4380 6050 4380
-Wire Wire Line
-	6510 5460 6510 4880
-Connection ~ 6510 4880
-Wire Wire Line
-	6510 4880 6430 4880
-Wire Wire Line
-	7230 5270 9020 5270
-Wire Wire Line
-	6510 4880 7250 4880
-Connection ~ 7250 4880
-Wire Wire Line
-	7250 4880 8720 4880
-Wire Wire Line
-	9040 2720 8380 2720
-Wire Wire Line
-	8380 2720 8380 4440
-Wire Wire Line
-	8380 4440 7350 4440
-Wire Wire Line
-	3510 980  3750 980 
-Wire Wire Line
-	7250 3645 7250 4880
-Wire Wire Line
-	7350 4440 7350 3645
-$Comp
-L RRC2021_PCB1-rescue:RFD900+-RF_Module RF1
-U 1 1 601DEA0B
-P 7350 2745
-F 0 "RF1" H 7810 3085 50  0000 R CNN
-F 1 "RFD900+" H 7860 2995 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Horizontal" H 7350 2745 50  0001 C CNN
-F 3 "" H 7350 2745 50  0001 C CNN
-	1    7350 2745
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3510 680  3510 980 
-Wire Wire Line
-	3750 1080 3320 1080
-Wire Wire Line
-	3320 1080 3320 510 
-Wire Wire Line
-	3510 680  6950 680 
-Wire Wire Line
-	6950 680  6950 2495
-Wire Wire Line
-	3320 510  7050 510 
-Wire Wire Line
-	7050 510  7050 2495
 Connection ~ 8720 4530
 Wire Wire Line
 	8720 4530 8720 4350
 Wire Wire Line
-	9040 2720 9040 3260
-Wire Wire Line
-	9020 4530 9020 5270
-Wire Wire Line
 	8720 4530 8720 4880
-Wire Wire Line
-	6050 4480 6330 4480
-Wire Wire Line
-	6330 4480 6330 5930
-Wire Wire Line
-	6330 5930 5430 5930
-Wire Wire Line
-	5430 5930 5430 6035
-Wire Wire Line
-	5735 5460 6510 5460
-Connection ~ 6510 5460
 $Comp
 L RRC2021_PCB1-rescue:MS5611-RRC2021_PCB1-rescue U2
 U 1 1 60AF376A
-P 3605 6320
-F 0 "U2" V 4083 6871 50  0000 L CNN
-F 1 "MS5611" V 3765 6155 50  0000 L CNN
-F 2 "Mounting Holes:1x07" H 3605 6320 50  0001 C CNN
-F 3 "" H 3605 6320 50  0001 C CNN
-	1    3605 6320
-	0    1    1    0   
+P 2560 4560
+F 0 "U2" V 3038 5111 50  0000 L CNN
+F 1 "MS5611" V 2720 4395 50  0000 L CNN
+F 2 "Mounting Holes:1x07" H 2560 4560 50  0001 C CNN
+F 3 "" H 2560 4560 50  0001 C CNN
+	1    2560 4560
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5735 5850 4405 5850
-Wire Wire Line
-	4405 5850 4405 6220
-Wire Wire Line
-	5735 5850 5735 5460
-Wire Wire Line
-	5430 6035 4725 6035
-Wire Wire Line
-	4305 6035 4305 6220
-Wire Wire Line
-	3750 5380 3750 5180
-Wire Wire Line
-	3750 5380 4105 5380
-Wire Wire Line
-	3620 5550 3620 5080
-Wire Wire Line
-	3620 5080 3750 5080
-Wire Wire Line
-	4205 5550 3620 5550
-$Comp
-L RRC2021_PCB1-rescue:ADXL357z U1
-U 1 1 60B8F0A7
-P 5430 7215
-F 0 "U1" H 6230 8496 50  0000 C CNN
-F 1 "ADXL357z" H 6230 8405 50  0000 C CNN
-F 2 "Mounting Holes:ADXLZ" H 6230 8515 50  0001 C CNN
-F 3 "" H 6230 8515 50  0001 C CNN
-	1    5430 7215
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5630 6825 4725 6825
-Wire Wire Line
-	4725 6825 4725 6035
-Connection ~ 4725 6035
-Wire Wire Line
-	4725 6035 4305 6035
-Wire Wire Line
-	6910 5460 6510 5460
 $Comp
 L SparkFun-Resistors:4.7KOHM-0603-1_10W-1% R1
 U 1 1 60F082D6
-P 5200 6720
-F 0 "R1" H 5200 7020 45  0000 C CNN
-F 1 "4.7KOHM-0603-1_10W-1%" H 5200 6936 45  0000 C CNN
-F 2 "0603" H 5200 6870 20  0001 C CNN
-F 3 "" H 5200 6720 60  0001 C CNN
-F 4 "RES-07857" H 5200 6841 60  0000 C CNN "Field4"
-	1    5200 6720
-	1    0    0    -1  
+P 5980 5880
+F 0 "R1" H 5980 6180 45  0000 C CNN
+F 1 "4.7KOHM-0603-1_10W-1%" H 6410 5650 45  0000 C CNN
+F 2 "0603" H 5980 6030 20  0001 C CNN
+F 3 "" H 5980 5880 60  0001 C CNN
+F 4 "RES-07857" H 6250 5760 60  0000 C CNN "Field4"
+	1    5980 5880
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5400 6720 5630 6720
-Wire Wire Line
-	4205 5550 4205 6220
 $Comp
-L SparkFun-Resistors:4.7KOHM-0603-1_10W-1% R?
+L SparkFun-Resistors:4.7KOHM-0603-1_10W-1% R2
 U 1 1 60F2BA52
-P 5410 5710
-F 0 "R?" H 5410 6010 45  0000 C CNN
-F 1 "4.7KOHM-0603-1_10W-1%" H 5410 5926 45  0000 C CNN
-F 2 "0603" H 5410 5860 20  0001 C CNN
-F 3 "" H 5410 5710 60  0001 C CNN
-F 4 "RES-07857" H 5410 5831 60  0000 C CNN "Field4"
-	1    5410 5710
+P 6020 6020
+F 0 "R2" H 6020 6320 45  0000 C CNN
+F 1 "4.7KOHM-0603-1_10W-1%" H 5690 5770 45  0000 C CNN
+F 2 "0603" H 6020 6170 20  0001 C CNN
+F 3 "" H 6020 6020 60  0001 C CNN
+F 4 "RES-07857" H 5560 5880 60  0000 C CNN "Field4"
+	1    6020 6020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell Battery3
+U 1 1 60F70EA5
+P 970 3680
+F 0 "Battery3" V 790 3680 50  0000 L CNN
+F 1 "9V" V 880 3660 50  0000 L CNN
+F 2 "Mounting Holes:1x02" V 970 3740 50  0001 C CNN
+F 3 "~" V 970 3740 50  0001 C CNN
+	1    970  3680
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Battery_Cell Battery2
+U 1 1 60F724FD
+P 1000 3230
+F 0 "Battery2" V 820 3230 50  0000 L CNN
+F 1 "9V" V 910 3210 50  0000 L CNN
+F 2 "Mounting Holes:1x02" V 1000 3290 50  0001 C CNN
+F 3 "~" V 1000 3290 50  0001 C CNN
+	1    1000 3230
+	0    1    1    0   
+$EndComp
+$Comp
+L Regulator_Linear:LM7805_TO220 linear_volt_reg2
+U 1 1 60F75356
+P 1170 2670
+F 0 "linear_volt_reg2" H 1170 2912 50  0000 C CNN
+F 1 "LM7805_TO220" H 1170 2821 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1170 2895 50  0001 C CIN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 1170 2620 50  0001 C CNN
+	1    1170 2670
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 60F76B60
+P 1110 2020
+F 0 "C3" V 1240 1990 50  0000 L CNN
+F 1 "0.1uF" V 1200 1700 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 1148 1870 50  0001 C CNN
+F 3 "~" H 1110 2020 50  0001 C CNN
+	1    1110 2020
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1170 2370 1260 2370
+Wire Wire Line
+	1260 2370 1260 2020
+Wire Wire Line
+	960  2020 870  2020
+Wire Wire Line
+	1200 3230 1200 2970
+Wire Wire Line
+	1200 2970 1170 2970
+Wire Wire Line
+	900  3230 870  3230
+Wire Wire Line
+	870  3230 870  2670
+Connection ~ 870  2670
+Wire Wire Line
+	1170 3680 1200 3680
+Wire Wire Line
+	1200 3680 1200 3230
+Connection ~ 1200 3230
+Wire Wire Line
+	870  3680 870  3230
+Connection ~ 870  3230
+Wire Wire Line
+	6430 4880 8720 4880
+Wire Wire Line
+	6430 4380 6050 4380
+$Comp
+L RRC2021_PCB1-rescue:Teensy3.6-teensy microcontroller1
+U 1 1 60257C60
+P 4900 3030
+F 0 "microcontroller1" H 4900 5467 60  0000 C CNN
+F 1 "Teensy3.6" H 4900 5361 60  0000 C CNN
+F 2 "Teensy Microcontrollers:Teensy35_36" H 4900 3080 60  0001 C CNN
+F 3 "" H 4900 3080 60  0000 C CNN
+	1    4900 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L RRC2021_PCB1-rescue:RFD900+-RF_Module RF1
+U 1 1 601DEA0B
+P 2600 1420
+F 0 "RF1" H 3060 1760 50  0000 R CNN
+F 1 "RFD900+" H 3110 1670 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Horizontal" H 2600 1420 50  0001 C CNN
+F 3 "" H 2600 1420 50  0001 C CNN
+	1    2600 1420
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	870  2020 870  2670
+Wire Wire Line
+	1700 1220 1700 1320
+Wire Wire Line
+	1260 2020 1260 1970
+Wire Wire Line
+	1260 1970 3090 1970
+Wire Wire Line
+	3090 1970 3090 1220
+Wire Wire Line
+	3090 1220 2850 1220
+Connection ~ 1260 2020
+Wire Wire Line
+	870  2020 870  1810
+Wire Wire Line
+	870  1810 1700 1810
+Wire Wire Line
+	1700 1810 1700 1420
+Connection ~ 870  2020
+Wire Wire Line
+	2850 1120 3750 1120
+Wire Wire Line
+	3750 1120 3750 1080
+Wire Wire Line
+	2850 1020 3750 1020
+Wire Wire Line
+	3750 1020 3750 980 
+$Comp
+L RRC2021_PCB1-rescue:ADXL357z U1
+U 1 1 60B8F0A7
+P 4200 7280
+F 0 "U1" H 5000 8561 50  0000 C CNN
+F 1 "ADXL357z" H 5000 8470 50  0000 C CNN
+F 2 "Mounting Holes:ADXLZ" H 5000 8580 50  0001 C CNN
+F 3 "" H 5000 8580 50  0001 C CNN
+	1    4200 7280
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5610 5710 5630 5710
+	4900 7430 5000 7430
 Wire Wire Line
-	5630 5710 5630 6515
+	5000 7430 5000 7660
 Wire Wire Line
-	4105 5380 4105 6220
+	5000 7660 6340 7660
 Wire Wire Line
-	4950 6720 5000 6720
-Connection ~ 5630 6515
+	6340 7660 6340 6020
 Wire Wire Line
-	5630 6515 5630 6525
+	6340 4580 6050 4580
+Connection ~ 5000 7430
 Wire Wire Line
-	6910 5460 6910 5450
+	4400 6680 3480 6680
 Wire Wire Line
-	5630 6720 5630 6730
+	3480 6680 3480 4680
+Wire Wire Line
+	3480 4680 3750 4680
+Wire Wire Line
+	6200 5370 6200 5080
+Wire Wire Line
+	6200 5080 6050 5080
+Wire Wire Line
+	6110 5180 6050 5180
 $Comp
-L Device:Battery_Cell Battery?
-U 1 1 60F70EA5
-P 1170 1510
-F 0 "Battery?" V 990 1510 50  0000 L CNN
-F 1 "9V" V 1080 1490 50  0000 L CNN
-F 2 "Mounting Holes:1x02" V 1170 1570 50  0001 C CNN
-F 3 "~" V 1170 1570 50  0001 C CNN
-	1    1170 1510
-	0    -1   -1   0   
+L power:GND #PWR01
+U 1 1 60F61A93
+P 5260 7430
+F 0 "#PWR01" H 5260 7180 50  0001 C CNN
+F 1 "GND" H 5265 7257 50  0000 C CNN
+F 2 "" H 5260 7430 50  0001 C CNN
+F 3 "" H 5260 7430 50  0001 C CNN
+	1    5260 7430
+	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Battery_Cell Battery?
-U 1 1 60F724FD
-P 1140 1960
-F 0 "Battery?" V 960 1960 50  0000 L CNN
-F 1 "9V" V 1050 1940 50  0000 L CNN
-F 2 "Mounting Holes:1x02" V 1140 2020 50  0001 C CNN
-F 3 "~" V 1140 2020 50  0001 C CNN
-	1    1140 1960
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Regulator_Linear:LM7805_TO220 linear_volt_reg?
-U 1 1 60F75356
-P 970 2520
-F 0 "linear_volt_reg?" H 970 2762 50  0000 C CNN
-F 1 "LM7805_TO220" H 970 2671 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 970 2745 50  0001 C CIN
-F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 970 2470 50  0001 C CNN
-	1    970  2520
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:CP C?
-U 1 1 60F76B60
-P 980 3240
-F 0 "C?" V 1110 3210 50  0000 L CNN
-F 1 "0.1uF" V 1070 2920 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 1018 3090 50  0001 C CNN
-F 3 "~" H 980 3240 50  0001 C CNN
-	1    980  3240
-	0    -1   -1   0   
-$EndComp
+Wire Wire Line
+	5100 7430 5260 7430
+Wire Wire Line
+	6180 5880 6340 5880
+Connection ~ 6340 5880
+Wire Wire Line
+	6340 5880 6340 4580
+Wire Wire Line
+	6220 6020 6340 6020
+Connection ~ 6340 6020
+Wire Wire Line
+	6340 6020 6340 5880
+Wire Wire Line
+	5780 5880 4400 5880
+Wire Wire Line
+	4400 5880 4400 6580
+Wire Wire Line
+	5820 6020 4800 6020
+Wire Wire Line
+	4130 6020 4130 6780
+Wire Wire Line
+	4130 6780 4400 6780
+Wire Wire Line
+	6110 5730 4800 5730
+Wire Wire Line
+	4800 5730 4800 6020
+Wire Wire Line
+	6110 5180 6110 5730
+Connection ~ 4800 6020
+Wire Wire Line
+	4800 6020 4130 6020
+Wire Wire Line
+	6200 5370 4400 5370
+Wire Wire Line
+	4400 5370 4400 5880
+Connection ~ 4400 5880
 $EndSCHEMATC
