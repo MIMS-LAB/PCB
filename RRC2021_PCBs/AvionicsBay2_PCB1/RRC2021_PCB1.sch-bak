@@ -321,7 +321,7 @@ U 1 1 60F710D4
 P 2130 3770
 F 0 "GPS1" H 2508 3696 50  0000 L CNN
 F 1 "BN220-GPS" H 2508 3605 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2130 3770 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal" H 2130 3770 50  0001 C CNN
 F 3 "" H 2130 3770 50  0001 C CNN
 	1    2130 3770
 	1    0    0    -1  

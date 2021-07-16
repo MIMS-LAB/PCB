@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:\\Alessandro\\FILESFORSCHOOL\\RRC-Avionics-master\\PCB design\\PCB\\RRC2021_PCBs\\AvionicsBay2_PCB1\\RRC2021_PCB1.sch")
-    (date "2021-07-16 5:54:26 PM")
+    (date "2021-07-16 6:43:12 PM")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -51,7 +51,7 @@
       (tstamp 60AF376A))
     (comp (ref R1)
       (value 4.7KOHM-0603-1_10W-1%)
-      (footprint Resistors:0603)
+      (footprint Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal)
       (fields
         (field (name Field4) RES-07857))
       (libsource (lib SparkFun-Resistors) (part 4.7KOHM-0603-1_10W-1%) (description "4.7k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"))
@@ -59,7 +59,7 @@
       (tstamp 60F082D6))
     (comp (ref R2)
       (value 4.7KOHM-0603-1_10W-1%)
-      (footprint Resistors:0603)
+      (footprint Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal)
       (fields
         (field (name Field4) RES-07857))
       (libsource (lib SparkFun-Resistors) (part 4.7KOHM-0603-1_10W-1%) (description "4.7k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"))
@@ -106,7 +106,7 @@
       (tstamp 60B8F0A7))
     (comp (ref GPS1)
       (value BN220-GPS)
-      (footprint Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal)
+      (footprint Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical)
       (libsource (lib RRC2021_PCB1-rescue) (part BN220-GPS) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 60F710D4))
