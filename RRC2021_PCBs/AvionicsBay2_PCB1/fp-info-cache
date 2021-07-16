@@ -1,4 +1,4 @@
-21339883253245284
+21351420219974422
 Adafruit Ultimate GPS
 1X09_ROUND_70
 
@@ -323,15 +323,15 @@ SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.05
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.5
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.5
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.05
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 0
 0
 0
@@ -59248,6 +59248,13 @@ SMT-JUMPER_3_NO_SILK
 0
 3
 3
+KiCad
+14-TERMINAL_LCC_E-14-1_
+14-Terminal_LCC(E-14-1)
+0
+0
+14
+14
 LED
 7-SEGMENT-1DIGIT-PTH
 7 SEGMENT DISPLAY STOREFRONT SKU#: COM-08546
@@ -60781,6 +60788,41 @@ WEMOS_D1_mini_light
 0
 16
 16
+Mounting Holes
+1x02
+
+0
+0
+2
+2
+Mounting Holes
+1x06
+
+0
+0
+6
+6
+Mounting Holes
+1x07
+
+0
+0
+7
+7
+Mounting Holes
+1x09
+
+0
+0
+9
+9
+Mounting Holes
+ADXLZ
+
+0
+0
+12
+12
 MountingEquipment
 DINRailAdapter_3xM3_PhoenixContact_1201578
 https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1201578&library=usen&tab=1
@@ -92806,6 +92848,13 @@ Teensy35_36
 0
 62
 62
+teensy
+Teensy35_36_All_Pins
+
+0
+0
+88
+88
 teensy
 Teensy40
 

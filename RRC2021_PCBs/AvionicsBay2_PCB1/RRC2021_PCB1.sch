@@ -80,10 +80,10 @@ Wire Wire Line
 Wire Wire Line
 	8720 4530 8720 4880
 $Comp
-L RRC2021_PCB1-rescue:MS5611-RRC2021_PCB1-rescue U2
+L RRC2021_PCB1-rescue:MS5611-RRC2021_PCB1-rescue barometer1
 U 1 1 60AF376A
 P 2560 4560
-F 0 "U2" V 3038 5111 50  0000 L CNN
+F 0 "barometer1" V 3038 5111 50  0000 L CNN
 F 1 "MS5611" V 2720 4395 50  0000 L CNN
 F 2 "Mounting Holes:1x07" H 2560 4560 50  0001 C CNN
 F 3 "" H 2560 4560 50  0001 C CNN
@@ -115,22 +115,11 @@ F 4 "RES-07857" H 5560 5880 60  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell Battery3
-U 1 1 60F70EA5
-P 970 3680
-F 0 "Battery3" V 790 3680 50  0000 L CNN
-F 1 "9V" V 880 3660 50  0000 L CNN
-F 2 "Mounting Holes:1x02" V 970 3740 50  0001 C CNN
-F 3 "~" V 970 3740 50  0001 C CNN
-	1    970  3680
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Battery_Cell Battery2
 U 1 1 60F724FD
 P 1000 3230
-F 0 "Battery2" V 820 3230 50  0000 L CNN
-F 1 "9V" V 910 3210 50  0000 L CNN
+F 0 "Battery2" V 1230 3120 50  0000 L CNN
+F 1 "9V" V 1140 3230 50  0000 L CNN
 F 2 "Mounting Holes:1x02" V 1000 3290 50  0001 C CNN
 F 3 "~" V 1000 3290 50  0001 C CNN
 	1    1000 3230
@@ -165,22 +154,10 @@ Wire Wire Line
 Wire Wire Line
 	960  2020 870  2020
 Wire Wire Line
-	1200 3230 1200 2970
-Wire Wire Line
 	1200 2970 1170 2970
 Wire Wire Line
 	900  3230 870  3230
-Wire Wire Line
-	870  3230 870  2670
 Connection ~ 870  2670
-Wire Wire Line
-	1170 3680 1200 3680
-Wire Wire Line
-	1200 3680 1200 3230
-Connection ~ 1200 3230
-Wire Wire Line
-	870  3680 870  3230
-Connection ~ 870  3230
 Wire Wire Line
 	6430 4880 8720 4880
 Wire Wire Line
@@ -236,10 +213,10 @@ Wire Wire Line
 Wire Wire Line
 	3750 1020 3750 980 
 $Comp
-L RRC2021_PCB1-rescue:ADXL357z U1
+L RRC2021_PCB1-rescue:ADXL357z ACCEL1
 U 1 1 60B8F0A7
 P 4200 7280
-F 0 "U1" H 5000 8561 50  0000 C CNN
+F 0 "ACCEL1" H 5000 8561 50  0000 C CNN
 F 1 "ADXL357z" H 5000 8470 50  0000 C CNN
 F 2 "Mounting Holes:ADXLZ" H 5000 8580 50  0001 C CNN
 F 3 "" H 5000 8580 50  0001 C CNN
@@ -339,12 +316,12 @@ Wire Wire Line
 	3090 4680 3480 4680
 Connection ~ 3480 4680
 $Comp
-L RRC2021_PCB1-rescue:BN220-GPS U3
+L RRC2021_PCB1-rescue:BN220-GPS GPS1
 U 1 1 60F710D4
 P 2130 3770
-F 0 "U3" H 2508 3696 50  0000 L CNN
+F 0 "GPS1" H 2508 3696 50  0000 L CNN
 F 1 "BN220-GPS" H 2508 3605 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2130 3770 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal" H 2130 3770 50  0001 C CNN
 F 3 "" H 2130 3770 50  0001 C CNN
 	1    2130 3770
 	1    0    0    -1  
@@ -373,4 +350,27 @@ Wire Wire Line
 	1490 4270 2030 4270
 Wire Wire Line
 	2030 4270 2030 3970
+Wire Wire Line
+	870  2670 870  3050
+Wire Wire Line
+	1200 2970 1200 3050
+$Comp
+L Device:CP C4
+U 1 1 60F4269F
+P 1020 3050
+F 0 "C4" V 1100 2740 50  0000 L CNN
+F 1 "0.33uF" V 1010 2670 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 1058 2900 50  0001 C CNN
+F 3 "~" H 1020 3050 50  0001 C CNN
+	1    1020 3050
+	0    1    1    0   
+$EndComp
+Connection ~ 870  3050
+Wire Wire Line
+	870  3050 870  3230
+Wire Wire Line
+	1170 3050 1200 3050
+Connection ~ 1200 3050
+Wire Wire Line
+	1200 3050 1200 3230
 $EndSCHEMATC
