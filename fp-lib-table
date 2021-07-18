@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name teensy)(type KiCad)(uri ${KIPRJMOD}/footprints/teensy)(options "")(descr ""))
+  (lib (name adxl357z)(type KiCad)(uri ${KIPRJMOD}/footprints/adxl357z)(options "")(descr ""))
+  (lib (name ms5611)(type KiCad)(uri ${KIPRJMOD}/footprints/ms5611)(options "")(descr ""))
+  (lib (name rfd900+)(type KiCad)(uri ${KIPRJMOD}/footprints/rfd900+)(options "")(descr ""))
+)

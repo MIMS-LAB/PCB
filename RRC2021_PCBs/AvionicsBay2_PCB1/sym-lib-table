@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name RRC2021_PCB1-rescue)(type Legacy)(uri ${KIPRJMOD}/RRC2021_PCB1-rescue.lib)(options "")(descr ""))
-)

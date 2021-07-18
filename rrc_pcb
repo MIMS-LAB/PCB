@@ -1,0 +1,11 @@
+Reference, Value, Footprint, Datasheet
+"U2","Teensy3.6-teensy","teensy:Teensy35_36",""
+"RF11","RFD900+-RF_Module","rfd900+:RFD900+",""
+"U4","MS5611","ms5611:1x07",""
+"U3","BN220-GPS","Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical",""
+"R4","Pull up","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"R3","Pull up","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"R1","Pull up","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"R2","Pull up","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"J1","Voltage Regulator Input","Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical","~"
+"U1","ADXL357Z","adxl357z:ADXL357",""
