@@ -58,7 +58,7 @@ F 3 "" H 2400 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R4
+L rrc_pcb-rescue:R-Device R4
 U 1 1 60F41F75
 P 3200 2600
 F 0 "R4" V 3400 2550 50  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "~" H 3200 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R3
+L rrc_pcb-rescue:R-Device R3
 U 1 1 60F426BB
 P 3200 2700
 F 0 "R3" V 3000 2650 50  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "~" H 3200 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R1
+L rrc_pcb-rescue:R-Device R1
 U 1 1 60F42E96
 P 7800 4600
 F 0 "R1" V 7593 4600 50  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "~" H 7800 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L rrc_pcb-rescue:R-Device R2
 U 1 1 60F4361A
 P 7800 5000
 F 0 "R2" V 8000 5000 50  0000 C CNN
@@ -102,7 +102,7 @@ F 3 "~" H 7800 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR01
+L rrc_pcb-rescue:+5V-power #PWR01
 U 1 1 60F4946E
 P 8700 1700
 F 0 "#PWR01" H 8700 1550 50  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 8700 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR02
+L rrc_pcb-rescue:GND-power #PWR02
 U 1 1 60F49AB9
 P 8700 1800
 F 0 "#PWR02" H 8700 1550 50  0001 C CNN
@@ -124,7 +124,7 @@ F 3 "" H 8700 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J1
+L rrc_pcb-rescue:Conn_01x02_Male-Connector J1
 U 1 1 60F4B4B7
 P 8350 1700
 F 0 "J1" H 8458 1881 50  0000 C CNN
@@ -271,4 +271,15 @@ Wire Wire Line
 	1650 4600 1650 4500
 Wire Wire Line
 	1650 4500 1800 4500
+$Comp
+L rrc_pcb-rescue:logo U5
+U 1 1 60F65807
+P 2100 7050
+F 0 "U5" H 2228 7071 50  0000 L CNN
+F 1 "logo" H 2228 6980 50  0000 L CNN
+F 2 "logo:RRC_logo" H 2100 7050 50  0001 C CNN
+F 3 "" H 2100 7050 50  0001 C CNN
+	1    2100 7050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

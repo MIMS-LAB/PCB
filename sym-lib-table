@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name parts)(type Legacy)(uri ${KIPRJMOD}/symbols/parts.lib)(options "")(descr ""))
+  (lib (name rrc_pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/rrc_pcb-rescue.lib)(options "")(descr ""))
 )
