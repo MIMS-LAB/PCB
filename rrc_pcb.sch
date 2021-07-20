@@ -285,17 +285,6 @@ F 3 "~" V 2475 5600 50  0001 C CNN
 	1    2500 5500
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_01x02_Male J2
-U 1 1 60F67653
-P 2350 4750
-F 0 "J2" H 2458 4931 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 2458 4840 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2350 4750 50  0001 C CNN
-F 3 "~" H 2350 4750 50  0001 C CNN
-	1    2350 4750
-	1    0    0    -1  
-$EndComp
 Text GLabel 2600 5400 2    50   Input ~ 0
 T_GND
 Text GLabel 2550 4750 2    50   Input ~ 0
@@ -320,4 +309,17 @@ Wire Wire Line
 	4000 5600 4000 3850
 Wire Wire Line
 	4000 3850 4350 3850
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 60F65D90
+P 2350 4850
+F 0 "J2" H 2458 5131 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2458 5040 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2350 4850 50  0001 C CNN
+F 3 "~" H 2350 4850 50  0001 C CNN
+	1    2350 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 4950 2    50   Input ~ 0
+T_VCC
 $EndSCHEMATC

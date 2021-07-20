@@ -27,12 +27,12 @@ $EndComp
 $Comp
 L parts:RFD900+-RF_Module RF11
 U 1 1 60F3CA44
-P 2700 4700
-F 0 "RF11" H 3025 4925 50  0000 C CNN
-F 1 "RFD900+-RF_Module" H 3025 4834 50  0000 C CNN
-F 2 "rfd900+:RFD900+" H 2700 4700 50  0001 C CNN
-F 3 "" H 2700 4700 50  0001 C CNN
-	1    2700 4700
+P 2600 4000
+F 0 "RF11" H 2925 4225 50  0000 C CNN
+F 1 "RFD900+-RF_Module" H 2925 4134 50  0000 C CNN
+F 2 "rfd900+:RFD900+" H 2600 4000 50  0001 C CNN
+F 3 "" H 2600 4000 50  0001 C CNN
+	1    2600 4000
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -166,22 +166,14 @@ Text GLabel 2600 2800 2    50   Input ~ 0
 T_GND
 Text GLabel 2600 2900 2    50   Input ~ 0
 T_VCC
-Text GLabel 2950 4700 2    50   Input ~ 0
+Text GLabel 2850 4000 2    50   Input ~ 0
 GND
-Text GLabel 2950 4500 2    50   Input ~ 0
+Text GLabel 2850 3800 2    50   Input ~ 0
 VCC
 Wire Wire Line
-	2950 4400 3900 4400
+	2850 3700 3800 3700
 Wire Wire Line
-	3900 4400 3900 2650
-Wire Wire Line
-	3900 2650 4350 2650
-Wire Wire Line
-	2950 4300 3800 4300
-Wire Wire Line
-	3800 4300 3800 2550
-Wire Wire Line
-	3800 2550 4350 2550
+	2850 3600 3700 3600
 Wire Wire Line
 	2950 2600 2950 2050
 Wire Wire Line
@@ -266,20 +258,68 @@ Wire Wire Line
 Wire Wire Line
 	10150 4900 10150 5300
 Wire Wire Line
-	1800 4600 1650 4600
+	1700 3900 1550 3900
 Wire Wire Line
-	1650 4600 1650 4500
+	1550 3900 1550 3800
 Wire Wire Line
-	1650 4500 1800 4500
+	1550 3800 1700 3800
 $Comp
 L rrc_pcb-rescue:logo U5
 U 1 1 60F65807
-P 2100 7050
-F 0 "U5" H 2228 7071 50  0000 L CNN
-F 1 "logo" H 2228 6980 50  0000 L CNN
-F 2 "logo:RRC_logo" H 2100 7050 50  0001 C CNN
-F 3 "" H 2100 7050 50  0001 C CNN
-	1    2100 7050
+P 9950 1600
+F 0 "U5" H 10078 1621 50  0000 L CNN
+F 1 "logo" H 10078 1530 50  0000 L CNN
+F 2 "logo:RRC_logo" H 9950 1600 50  0001 C CNN
+F 3 "" H 9950 1600 50  0001 C CNN
+	1    9950 1600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Buzzer BZ1
+U 1 1 60F65603
+P 2500 5500
+F 0 "BZ1" H 2505 5175 50  0000 C CNN
+F 1 "Buzzer" H 2505 5266 50  0000 C CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 2475 5600 50  0001 C CNN
+F 3 "~" V 2475 5600 50  0001 C CNN
+	1    2500 5500
+	-1   0    0    1   
+$EndComp
+Text GLabel 2600 5400 2    50   Input ~ 0
+T_GND
+Text GLabel 2550 4750 2    50   Input ~ 0
+T_GND
+Wire Wire Line
+	3700 3600 3700 2550
+Wire Wire Line
+	3800 3700 3800 2650
+Wire Wire Line
+	3800 2650 4350 2650
+Wire Wire Line
+	3700 2550 4350 2550
+Wire Wire Line
+	2550 4850 3900 4850
+Wire Wire Line
+	3900 4850 3900 3750
+Wire Wire Line
+	3900 3750 4350 3750
+Wire Wire Line
+	2600 5600 4000 5600
+Wire Wire Line
+	4000 5600 4000 3850
+Wire Wire Line
+	4000 3850 4350 3850
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 60F65D90
+P 2350 4850
+F 0 "J2" H 2458 5131 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2458 5040 50  0000 C CNN
+F 2 "" H 2350 4850 50  0001 C CNN
+F 3 "~" H 2350 4850 50  0001 C CNN
+	1    2350 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 4950 2    50   Input ~ 0
+T_VCC
 $EndSCHEMATC
