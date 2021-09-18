@@ -156,7 +156,7 @@ Text GLabel 4350 1550 0    50   Input ~ 0
 T_GND
 Text GLabel 6650 5050 2    50   Input ~ 0
 VCC
-Text GLabel 4350 4050 0    50   Input ~ 0
+Text GLabel 4350 2950 0    50   Input ~ 0
 T_VCC
 Text GLabel 2600 1250 2    50   Input ~ 0
 T_VCC
@@ -251,7 +251,7 @@ Wire Wire Line
 Connection ~ 8250 4600
 Wire Wire Line
 	8250 4600 8500 4600
-Text GLabel 4350 4150 0    50   Input ~ 0
+Text GLabel 4350 5350 0    50   Input ~ 0
 GND
 Wire Wire Line
 	10000 4900 10150 4900
@@ -275,7 +275,7 @@ F 3 "" H 9950 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Buzzer BZ1
+L rrc_pcb-rescue:Buzzer-Device BZ1
 U 1 1 60F65603
 P 2500 5500
 F 0 "BZ1" H 2505 5175 50  0000 C CNN
@@ -310,7 +310,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3850 4350 3850
 $Comp
-L Connector:Conn_01x03_Male J2
+L rrc_pcb-rescue:Conn_01x03_Male-Connector J2
 U 1 1 60F65D90
 P 2350 4850
 F 0 "J2" H 2458 5131 50  0000 C CNN

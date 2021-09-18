@@ -52,7 +52,7 @@ U 1 1 60F3FB54
 P 2400 1550
 F 0 "U3" V 2915 1517 50  0000 C CNN
 F 1 "BN220-GPS" V 2824 1517 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 2400 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 2400 1550 50  0001 C CNN
 F 3 "" H 2400 1550 50  0001 C CNN
 	1    2400 1550
 	0    -1   -1   0   
@@ -156,7 +156,7 @@ Text GLabel 4350 1550 0    50   Input ~ 0
 T_GND
 Text GLabel 6650 5050 2    50   Input ~ 0
 VCC
-Text GLabel 4350 4050 0    50   Input ~ 0
+Text GLabel 4350 2950 0    50   Input ~ 0
 T_VCC
 Text GLabel 2600 1250 2    50   Input ~ 0
 T_VCC
@@ -251,7 +251,7 @@ Wire Wire Line
 Connection ~ 8250 4600
 Wire Wire Line
 	8250 4600 8500 4600
-Text GLabel 4350 4150 0    50   Input ~ 0
+Text GLabel 4350 5350 0    50   Input ~ 0
 GND
 Wire Wire Line
 	10000 4900 10150 4900
