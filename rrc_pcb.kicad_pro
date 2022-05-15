@@ -364,11 +364,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "rrc_pcb.cad",
       "idf": "",
       "netlist": "rrc_pcb.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "rrc_pcb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
