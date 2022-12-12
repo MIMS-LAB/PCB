@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name parts)(type Legacy)(uri ${KIPRJMOD}/symbols/parts.lib)(options "")(descr ""))
-  (lib (name rrc_pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/rrc_pcb-rescue.lib)(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/symbols/parts.kicad_sym")(options "")(descr ""))
+  (lib (name "rrc_pcb-rescue")(type "KiCad")(uri "${KIPRJMOD}/rrc_pcb-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "eec")(type "Legacy")(uri "D:/Alessandro/FILESFORSCHOOL/RRC-Avionics-master/PCB design/IC_TDK InvenSense_MPU-9250/eec.lib")(options "")(descr ""))
+  (lib (name "rrc_pcb-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/rrc_pcb-eagle-import.kicad_sym")(options "")(descr ""))
 )
