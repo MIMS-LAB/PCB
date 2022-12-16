@@ -4,4 +4,5 @@
   (lib (name "ms5611")(type "KiCad")(uri "${KIPRJMOD}/footprints/ms5611")(options "")(descr ""))
   (lib (name "rfd900+")(type "KiCad")(uri "${KIPRJMOD}/footprints/rfd900+")(options "")(descr ""))
   (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/footprints/logo")(options "")(descr ""))
+  (lib (name "teensy_library-master")(type "KiCad")(uri "D:/Alessandro/FILESFORSCHOOL/RRC-Avionics-master/PCB design/teensy_library-master.pretty")(options "")(descr ""))
 )
