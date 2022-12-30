@@ -4,4 +4,6 @@
   (lib (name "ms5611")(type "KiCad")(uri "${KIPRJMOD}/footprints/ms5611")(options "")(descr ""))
   (lib (name "rfd900+")(type "KiCad")(uri "${KIPRJMOD}/footprints/rfd900+")(options "")(descr ""))
   (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/footprints/logo")(options "")(descr ""))
+  (lib (name "bn220_gps")(type "KiCad")(uri "${KIPRJMOD}/footprints/bn220_gps.pretty")(options "")(descr ""))
+  (lib (name "iridium9602")(type "KiCad")(uri "${KIPRJMOD}/footprints/iridium9602.pretty")(options "")(descr ""))
 )

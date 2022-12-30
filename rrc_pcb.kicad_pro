@@ -367,11 +367,11 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "rrc_pcb.cad",
-      "idf": "",
+      "idf": "rrc_pcb.emn",
       "netlist": "rrc_pcb.net",
       "specctra_dsn": "",
       "step": "rrc_pcb.step",
-      "vrml": ""
+      "vrml": "rrc_pcb.wrl"
     },
     "page_layout_descr_file": ""
   },
