@@ -1,1 +1,2 @@
-gerber*
+*.gerber
+**/rrc_pcb-backups/*.zip
