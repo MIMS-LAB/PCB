@@ -23,8 +23,9 @@
 
 # Schematic and Board
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/33810424/213518599-014f5bbc-54cd-4022-90f0-9c56d9ed8d9e.png)
 
-![Board Schematic](https://github.com/Ryerson-Rocketry/PCB/docs/images/schematic.PNG)
 
-![Board Floorplan](https://github.com/Ryerson-Rocketry/PCB/docs/images/pcb.PNG)
+![image](https://user-images.githubusercontent.com/33810424/213518398-d202c4ff-65ed-4319-a846-f1bc6bcee619.png)
+)
 
