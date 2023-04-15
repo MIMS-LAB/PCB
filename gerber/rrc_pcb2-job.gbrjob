@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "(6.0.9)"
     },
-    "CreationDate": "2023-03-05T13:30:58-05:00"
+    "CreationDate": "2023-04-14T20:57:10-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "rrc_pcb",
-      "GUID": "7272635f-7063-4622-9e6b-696361645f70",
+      "Name": "rrc_pcb2",
+      "GUID": "7272635f-7063-4623-922e-6b696361645f",
       "Revision": "rev?"
     },
     "Size": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.508,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "rrc_pcb-F_Cu.gbr",
+      "Path": "rrc_pcb2-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb-B_Cu.gbr",
+      "Path": "rrc_pcb2-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb-F_Silkscreen.gbr",
+      "Path": "rrc_pcb2-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb-B_Silkscreen.gbr",
+      "Path": "rrc_pcb2-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb-F_Mask.gbr",
+      "Path": "rrc_pcb2-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "rrc_pcb-B_Mask.gbr",
+      "Path": "rrc_pcb2-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "rrc_pcb-Edge_Cuts.gbr",
+      "Path": "rrc_pcb2-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb-F_Fab.gbr",
+      "Path": "rrc_pcb2-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb-B_Fab.gbr",
+      "Path": "rrc_pcb2-B_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
