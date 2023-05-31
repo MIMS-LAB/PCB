@@ -427,7 +427,7 @@
     "last_paths": {
       "gencad": "rrc_pcb.cad",
       "idf": "rrc_pcb.emn",
-      "netlist": "rrc_pcb.net",
+      "netlist": "rrc_pcb2.net",
       "specctra_dsn": "",
       "step": "rrc_pcb.step",
       "vrml": "rrc_pcb.wrl"
