@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "7.0.6"
     },
-    "CreationDate": "2023-08-10T16:49:52-04:00"
+    "CreationDate": "2023-08-10T16:59:27-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "rrc_pcb2",
-      "GUID": "7272635f-7063-4623-922e-6b696361645f",
+      "Name": "rrc_pcb3",
+      "GUID": "7272635f-7063-4623-932e-6b696361645f",
       "Revision": "rev?"
     },
     "Size": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "rrc_pcb2-F_Cu.gbr",
+      "Path": "rrc_pcb3-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb2-B_Cu.gbr",
+      "Path": "rrc_pcb3-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb2-F_Silkscreen.gbr",
+      "Path": "rrc_pcb3-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb2-B_Silkscreen.gbr",
+      "Path": "rrc_pcb3-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb2-F_Mask.gbr",
+      "Path": "rrc_pcb3-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "rrc_pcb2-B_Mask.gbr",
+      "Path": "rrc_pcb3-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "rrc_pcb2-Edge_Cuts.gbr",
+      "Path": "rrc_pcb3-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb2-F_Fab.gbr",
+      "Path": "rrc_pcb3-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "rrc_pcb2-B_Fab.gbr",
+      "Path": "rrc_pcb3-B_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
