@@ -1,4 +1,4 @@
-22475459360490450
+22475459460878920
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92516,7 +92516,7 @@ voltReg
 Through hole angled socket strip, 1x02, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated
 Through hole angled socket strip THT 1x02 2.54mm single row
 0
-8
+4
 4
 VoltReg
 voltReg2
