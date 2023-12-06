@@ -1,4 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/footprints/teensy")(options "")(descr ""))
   (lib (name "adxl357z")(type "KiCad")(uri "${KIPRJMOD}/footprints/adxl357z")(options "")(descr ""))
   (lib (name "ms5611")(type "KiCad")(uri "${KIPRJMOD}/footprints/ms5611")(options "")(descr ""))
@@ -8,4 +9,5 @@
   (lib (name "VoltReg")(type "KiCad")(uri "${KIPRJMOD}/footprints/voltReg")(options "")(descr ""))
   (lib (name "iridium9602")(type "KiCad")(uri "${KIPRJMOD}/footprints/iridium9602")(options "")(descr ""))
   (lib (name "icm20948")(type "KiCad")(uri "${KIPRJMOD}/footprints/ICM20948")(options "")(descr ""))
+  (lib (name "MPU6050")(type "KiCad")(uri "${KIPRJMOD}/footprints/MPU6050")(options "")(descr ""))
 )
