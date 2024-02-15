@@ -11,4 +11,5 @@
   (lib (name "icm20948")(type "KiCad")(uri "${KIPRJMOD}/footprints/ICM20948")(options "")(descr ""))
   (lib (name "MPU6050")(type "KiCad")(uri "${KIPRJMOD}/footprints/MPU6050")(options "")(descr ""))
   (lib (name "LED_4pin")(type "KiCad")(uri "${KIPRJMOD}/footprints/LED_4pin")(options "")(descr ""))
+  (lib (name "INA260")(type "KiCad")(uri "${KIPRJMOD}/footprints/INA260.pretty")(options "")(descr ""))
 )
