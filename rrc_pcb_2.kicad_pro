@@ -119,6 +119,13 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
     "layer_presets": [],
     "viewports": []
   },
@@ -373,8 +380,11 @@
       "gencad": "rrc_pcb.cad",
       "idf": "rrc_pcb.emn",
       "netlist": "rrc_pcb.net",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "rrc_pcb.step",
+      "svg": "",
       "vrml": "rrc_pcb.wrl"
     },
     "page_layout_descr_file": ""
