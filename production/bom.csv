@@ -1,7 +1,7 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 BZ1,Buzzer_12x9.5RM7.6,1,Buzzer-Device,
 J1,PinHeader_1x03_P2.54mm_Vertical,1,buzzer_toggle_pin,
-J2,PinSocket_1x02_P2.54mm_Vertical,1,battery_header,
+J2,PinSocket_1x02_P2.54mm_Horizontal,1,battery_header,
 "R1, R2, R3, R4",R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4,R-Device,
 RF1,RFD900+,1,RFD900+-RF_Module,
 U1,BN220,1,BN220-GPS,
