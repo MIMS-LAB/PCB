@@ -787,4 +787,15 @@
 		(remove_unused_layers no)
 		(uuid "f3ac9f1d-340a-480d-8153-fc6b8fe2d205")
 	)
+	(model "${KIPRJMOD}/3D/BN220_GPS.step"
+		(offset
+			(xyz 14 -20.5 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )
