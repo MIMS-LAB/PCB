@@ -1,7 +1,7 @@
 (footprint "INA260"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "07e95e1f-4ab6-4a1b-a4ed-ba77af70c2f2")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -196,7 +184,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "65e2277c-9ec9-438b-844c-cbdbeb7f0928")
 	)
@@ -207,7 +195,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "76a6ed2b-6c9c-49e7-924d-8d820ebcf17a")
 	)
@@ -303,6 +291,7 @@
 		(solder_mask_margin 0.0508)
 		(uuid "0fa312f9-4643-4849-bf9b-76d5be089a8f")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D/INA260.step"
 		(offset
 			(xyz 0 0 4)
