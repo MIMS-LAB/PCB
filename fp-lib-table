@@ -13,4 +13,5 @@
   (lib (name "rrc_ms5611")(type "KiCad")(uri "${KIPRJMOD}/footprints/ms5611")(options "")(descr ""))
   (lib (name "rrc_rfd900+")(type "KiCad")(uri "${KIPRJMOD}/footprints/rfd900+")(options "")(descr ""))
   (lib (name "rrc_voltReg")(type "KiCad")(uri "${KIPRJMOD}/footprints/voltReg")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-25233390500362821
+25240429186804301
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90090,6 +90090,13 @@ WiFi IEEE802.11 b/g/n
 44
 44
 RRC_footprint
+BLHeLi_esc
+
+
+0
+4
+4
+RRC_footprint
 xbee_s2c
 
 
@@ -101282,6 +101289,20 @@ Varistor VF
 0
 2
 2
+footprints
+BLHeLi_esc
+
+
+0
+4
+4
+footprints
+xbee_s2c
+
+
+0
+20
+20
 rrc_ICM20948
 icm20948
 
@@ -101294,8 +101315,8 @@ INA260
 
 
 0
-10
-10
+8
+8
 rrc_LED_4pin
 LED_4PIN
 
@@ -101331,6 +101352,13 @@ iridium9602
 0
 20
 20
+rrc_logo
+picturae
+
+
+0
+0
+0
 rrc_logo
 tmu
 

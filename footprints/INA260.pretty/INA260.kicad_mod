@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f831ad62-cf4c-458f-a393-3a07852979bf")
+		(uuid "4b785cc9-a4d9-4892-93cd-ea967bc1ad9a")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 2.54 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e142a789-a2b7-47b0-8a3f-406f17287665")
+		(uuid "1fc565ad-eb3b-426a-bc37-5add59dc1b49")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ae494ee8-9f98-4c47-8026-bee5a934bd5a")
+		(uuid "a4772451-0cfc-4a95-a32f-9e49552aa218")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "af6a67c6-6e00-4139-8ae9-4d34df136a0d")
+		(uuid "79c619d5-76f6-4fea-9d73-ac09d5ddfd4f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -199,25 +199,23 @@
 		(layer "Edge.Cuts")
 		(uuid "76a6ed2b-6c9c-49e7-924d-8d820ebcf17a")
 	)
-	(pad "1" thru_hole oval
-		(at -2.554341 -7.835128 90)
-		(size 4.3688 2.1844)
-		(drill 1.1)
+	(pad "1" thru_hole circle
+		(at 6.271033 8.66182 90)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.0508)
-		(thermal_bridge_angle 45)
-		(uuid "ef149596-818e-4462-b527-cfda6fc2b52d")
+		(uuid "93c87193-7821-4b23-875b-291dff945fac")
 	)
-	(pad "2" thru_hole oval
-		(at 2.525659 -7.835128 90)
-		(size 4.3688 2.1844)
-		(drill 1.1)
+	(pad "2" thru_hole circle
+		(at 8.811033 8.66182 90)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.0508)
-		(thermal_bridge_angle 45)
-		(uuid "eb8fbe86-c846-4e42-a53a-340283d042b5")
+		(uuid "0fa312f9-4643-4849-bf9b-76d5be089a8f")
 	)
 	(pad "3" thru_hole circle
 		(at -8.968967 8.66182 90)
@@ -272,24 +270,6 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.0508)
 		(uuid "30446559-1423-4116-badc-89965f518075")
-	)
-	(pad "9" thru_hole circle
-		(at 6.271033 8.66182 90)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.0508)
-		(uuid "93c87193-7821-4b23-875b-291dff945fac")
-	)
-	(pad "10" thru_hole circle
-		(at 8.811033 8.66182 90)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.0508)
-		(uuid "0fa312f9-4643-4849-bf9b-76d5be089a8f")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D/INA260.step"
