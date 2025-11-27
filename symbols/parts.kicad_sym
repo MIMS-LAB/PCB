@@ -1551,42 +1551,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 11.43 0)
-				(length 2.54)
-				(name "IN+"
-					(effects
-						(font
-							(size 1.4986 1.4986)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.4986 1.4986)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -15.24 7.62 0)
-				(length 2.54)
-				(name "IN-"
-					(effects
-						(font
-							(size 1.4986 1.4986)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.4986 1.4986)
-						)
-					)
-				)
-			)
 			(pin open_collector line
 				(at -15.24 1.27 0)
 				(length 2.54)

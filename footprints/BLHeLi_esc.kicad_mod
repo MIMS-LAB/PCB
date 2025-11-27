@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start 10.16 -7.62)
-		(end 22.86 2.54)
+		(start 15.495797 -6.573983)
+		(end 22.760432 1.585941)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78,7 +78,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 20.32 -5.08)
+		(at 21.379128 -5.039201)
 		(size 2.54 2.54)
 		(drill 2.1)
 		(layers "*.Cu" "*.Mask")
@@ -86,7 +86,7 @@
 		(uuid "37c3cd5d-91e8-4d5f-9a25-b27dd5ab1a29")
 	)
 	(pad "2" thru_hole circle
-		(at 20.32 0)
+		(at 21.379128 0.153478)
 		(size 2.54 2.54)
 		(drill 2.1)
 		(layers "*.Cu" "*.Mask")
@@ -94,7 +94,7 @@
 		(uuid "51e08a73-b73b-451f-b926-1fa1e671007a")
 	)
 	(pad "3" thru_hole circle
-		(at 12.7 -5.08)
+		(at 16.646883 -5.09036)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -102,7 +102,7 @@
 		(uuid "a1210ad5-d073-4879-b989-043785c7d2e5")
 	)
 	(pad "4" thru_hole circle
-		(at 12.7 -2.54)
+		(at 16.646883 0.179057)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")

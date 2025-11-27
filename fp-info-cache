@@ -1,4 +1,4 @@
-25240429186804301
+25242262151837929
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101401,3 +101401,10 @@ Through hole angled socket strip THT 1x02 2.54mm single row
 0
 8
 4
+thesis_lib
+esp32_cam
+
+
+0
+16
+16
