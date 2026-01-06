@@ -1,2 +1,1 @@
-# br1ck
-Rctangular PCB design 
+# Currently PCB is throughole
